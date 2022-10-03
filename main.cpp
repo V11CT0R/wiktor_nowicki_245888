@@ -7,7 +7,10 @@ int add(int a, int b) {
 string link(string a, string b) {
     return a + b;
 }
+float new_function(int a, int b, int c){
+    return a*b*c;
+}
 int main() {
-    std::cout << link("Wiktor","Nowicki") << "Hello, World!" << add(4,2) << std::endl;
+    std::cout << new_function(4,2,2)<< link("Wiktor","Nowicki") << "Hello, World!" << add(4,2) << std::endl;
     return 0;
 }
